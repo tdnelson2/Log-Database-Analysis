@@ -11,7 +11,6 @@ I completed this project as part of the [Udacity Full Stack Nanodegree Program](
 * In a bash shell (Terminal on macOS or [git bash](https://git-scm.com/downloads) on Windows) `cd` into the repo.
 * Run `vagrant up` to launch the VM and install all dependencies. It will take a while because it has to download an entire OS!
 * Run `vagrant ssh` to login to the linux environment.
-* Run `vagrant ssh` to login to the linux environment.
 * Once the linux environment has been loaded, change to the shared directory (`cd \vagrant`). This is the same directory as the repo only it's being shared inside the VM as well.
 * Run `psql -d news -f newsdata.sql` to setup the database.
 * Run `psql -d news -f log_analysis.sql` to setup the views.
